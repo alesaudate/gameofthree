@@ -41,7 +41,7 @@ The computer player will not apply this behavior; it will rather try some math t
 
 ### Code Quality
 
-This project has been developer using [SonarLint](https://www.sonarlint.org/). Therefore, several changes to the code have been applied due to the plugin's recommendation. The most evident is turning test classes no longer public.
+This project has been developed using [SonarLint](https://www.sonarlint.org/). Therefore, several changes to the code have been applied due to the plugin's recommendation. The most evident is turning test classes no longer public.
 
 Also, this project uses Spring's formatter plugin. As such, before doing any checks it verifies if the code is following the plugin's standards. To apply these standards, just run `./gradlew format`.
 
