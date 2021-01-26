@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "88c78791-411c-4121-bfd6-5881052709cf",
+		"name": "Takeaway",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create standard game",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/api/game",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"api",
+						"game"
+					]
+				},
+				"description": "Creates a game between computers, with a random value"
+			},
+			"response": []
+		},
+		{
+			"name": "Create game between player and computer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gameMode\" : \"PLAYER_VS_COMPUTER\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/api/game",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"api",
+						"game"
+					]
+				},
+				"description": "Creates a game between computers, with a random value"
+			},
+			"response": []
+		},
+		{
+			"name": "Create game between player and computer with initial value",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gameMode\" : \"PLAYER_VS_COMPUTER\",\n    \"initialValue\" : 56\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/api/game",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"api",
+						"game"
+					]
+				},
+				"description": "Creates a game between computers, with a random value"
+			},
+			"response": []
+		},
+		{
+			"name": "Create game between computer and computer with initial value",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gameMode\" : \"COMPUTER_VS_COMPUTER\",\n    \"initialValue\" : 56\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/api/game",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"api",
+						"game"
+					]
+				},
+				"description": "Creates a game between computers, with a random value"
+			},
+			"response": []
+		},
+		{
+			"name": "Create game between player and player",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gameMode\" : \"PLAYER_VS_PLAYER\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/api/game",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"api",
+						"game"
+					]
+				},
+				"description": "Creates a game between computers, with a random value"
+			},
+			"response": []
+		}
+	]
+}

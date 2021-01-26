@@ -1,0 +1,14 @@
+kafka:
+  servers: localhost:29092
+
+  topics:
+    gamedata:
+      created: gamedata.created
+
+logging:
+  level:
+    root: INFO
+
+spring:
+  main:
+    banner-mode: "off"

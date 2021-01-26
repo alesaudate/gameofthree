@@ -1,0 +1,10 @@
+kafka:
+  servers: localhost:29093
+
+logging:
+  level:
+    root: INFO
+
+player:
+  name: test
+  destination: test2
